@@ -1,0 +1,27 @@
+/* .button-center{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 13px 33px;
+gap: 10px;
+
+} */
+
+.explore-bg{
+    background-color: #F4FAFD;
+
+}
+.reg-bg-color{
+    background: #289BDE;
+    border-radius: 5px;
+}
+
+.register{
+    border: none;
+    border-radius: 5px ;
+    padding: 8px 30px;
+    color: #289BDE;
+}
+.register-a a{
+    text-decoration: none;
+}
