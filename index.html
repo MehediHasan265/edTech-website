@@ -253,8 +253,27 @@
                 <p class="text-white ">Get Ready to join our Student Collaborate. <br> We are hire you for our next level. You should register to join with us. good luck!!</p>
             </div>
             <div class="register-a">
-                <a class="register bg-white fw-semibold " href="">Register</a>
-                <!-- <button class=" bg-white px-3 button-text" type="submit">Register</button> -->
+                <a class="register bg-white fw-semibold" href="" data-toggle="modal" data-target="#myModal">Register</a>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1>Please Confirm</h1>
+                            </div>
+                            <div class="modal-body">
+                                Go to Confirm
+                            </div>
+                            <div class="modal-footer">
+                                <input class="btn btn-primary" data-dismiss="modal" value="close">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Modal End -->
             </div>
            </div>
         </section>
@@ -307,10 +326,75 @@
                </div>
         </section>
 
-        
+        <!-- Student Feedback Section -->
+        <section>
+
+        </section>
+        <!-- Feedback End -->
+
+        <!-- FAQ Section Start -->
+        <section class="Container d-flex justify-content-center align-items-center flex-column mb-5">
+            <div>
+                <h1>Frequently Asked Questions</h1>
+                <p>There are some frequentrly asked questions by Web Design and Development <br> We are try to write here some short question answers. Needed.</p>
+            </div>
+            <div class="w-75 ">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          What Are Between Flexbox and Grid??
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                           <strong>Grid is made for two-dimensional layout</strong>  while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both. <strong> Flexbox,</strong>  gives you more flexibility while working on either element (row or column).
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            What Are Between Bootstrap and Tailwind??
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            The main difference between <strong>TailwindCSS and Bootstrap </strong> is that Tailwind CSS is not a UI kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn't have a default theme or built-in UI components. Instead, it comes with predesigned widgets you can use to build your site from scratch
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        What is CSS Box Model?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          What is Sementic Tags??
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
     </main>
 
     <!-- Script Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
   </body>
 </html>
